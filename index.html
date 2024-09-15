@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        body {
+            font-family: 'Tahoma', Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e0e0e0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        .image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            max-width: 25%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .text {
+            margin: 20px 0;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            animation: fadeIn 1.2s ease-out forwards;
+        }
+
+        .text p {
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 30px;
+            animation: fadeIn 1.4s ease-out forwards;
+        }
+
+        /* استایل جدید برای دکمه با کلاس button-22 */
+        .button-22 {
+            align-items: center;
+            appearance: button;
+            background-color: #0276FF;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            flex-direction: row;
+            font-family: "RM Neue", sans-serif;
+            font-size: 16px;
+            line-height: 1.15;
+            margin: 10px;
+            padding: 15px 30px;
+            text-align: center;
+            text-transform: none;
+            transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+        }
+
+        .button-22:active {
+            background-color: #006AE8;
+        }
+
+        .button-22:hover {
+            background-color: #1C84FF;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image">
+            <img src="acsses/img/photo_2024-08-19_21-16-47.jpg" alt="توضیح عکس">
+        </div>
+        <div class="text">
+            <p>این یک متن نمونه است که در اینجا قرار می‌گیرد. می‌توانید محتوای دلخواه خود را در این قسمت قرار دهید. این متن باید مختصر، جذاب و حاوی اطلاعات کلیدی باشد.</p>
+        </div>
+        <div class="buttons">
+            <a href="https://example.com/button1" target="_blank" class="button-22">دکمه ۱</a>
+            <a href="https://example.com/button2" target="_blank" class="button-22">دکمه ۲</a>
+            <a href="https://example.com/button3" target="_blank" class="button-22">دکمه ۳</a>
+        </div>
+
+    </div>
+</body>
+</html>
